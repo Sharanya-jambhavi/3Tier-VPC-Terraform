@@ -1,0 +1,26 @@
+# Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.plan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Editor folders
+.vscode/
+
+# OS system files
+.DS_Store
+Thumbs.db
